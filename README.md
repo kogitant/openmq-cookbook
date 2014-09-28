@@ -1,4 +1,4 @@
-# openmq-cookbook-cookbook
+# openmq-cookbook
 
 Chef cookbook for installing OpenMQ 5.1
 
@@ -52,14 +52,14 @@ Chef cookbook for installing OpenMQ 5.1
 
 ## Usage
 
-### openmq-cookbook::default
+### openmq::default
 
-Include `openmq-cookbook` in your node's `run_list`:
+Include `openmq` in your node's `run_list`:
 
 ```json
 {
   "run_list": [
-    "recipe[openmq-cookbook::default]"
+    "recipe[openmq::default]"
   ]
 }
 ```
