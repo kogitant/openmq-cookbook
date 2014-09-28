@@ -1,4 +1,4 @@
-name             'openmq-cookbook'
+name             'openmq'
 maintainer       'Antti Koivisto'
 maintainer_email 'kogitant@koant.com'
 license          'All rights reserved'
