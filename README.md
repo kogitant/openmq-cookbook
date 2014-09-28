@@ -3,6 +3,10 @@
 Chef cookbook for installing OpenMQ 5.1
 
 
+## Requirements
+ark, https://github.com/burtlo/ark
+
+
 ## Attributes
 
 <table>
