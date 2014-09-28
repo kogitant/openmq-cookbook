@@ -26,10 +26,6 @@ end
 
 ark 'openmq' do
   url node[:openmq][:url]
+  version node[:openmq][:version]
+  action :install
 end
-
-
-link "#{extract_path}/openmq" do
-  to "#{extract_path}/MessageQueue5_1"
-end
-
