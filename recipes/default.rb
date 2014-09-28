@@ -33,6 +33,6 @@ zip "extract_openmq" do
 end
 
 link "#{extract_path}/openmq" do
-  to "#{extract_path}/MessageQueue4_5"
+  to "#{extract_path}/MessageQueue5_1"
 end
 
